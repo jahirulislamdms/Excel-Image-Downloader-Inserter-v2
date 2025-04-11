@@ -98,15 +98,7 @@ Excel file saved: /path/to/your/excel/file_with_images.xlsx
 
 ---
 
-### License:
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
----
-
-### Contributions:
-Feel free to fork this repository, make changes, and submit pull requests! All contributions are welcome.
-
----
 
 ## Folder Structure:
 
@@ -117,43 +109,22 @@ excel-image-downloader-inserter-v2/
 └── README.md                # Documentation file
 ```
 
----
-
-### To Upload to GitHub:
-
-1. **Initialize the Repository Locally:**
-
-```bash
-git init
-```
-
-2. **Add Files to Git:**
-
-```bash
-git add download_images_and_embed_in_excel.py
-git add README.md
-git add .gitignore
-git commit -m "Initial commit: Upload version 2 of Excel Image Downloader Inserter"
-```
-
-3. **Push to GitHub:**
-
-Create a new repository on GitHub (if not already done) and link it to your local repository:
-
-```bash
-git remote add origin https://github.com/jahirulislamdms/excel-image-downloader-inserter-v2.git
-git branch -M main
-git push -u origin main
-```
-
----
 
 ### Notes:
 - This script is designed to work with Excel files (.xlsx).
 - The directory `downloaded_images` is created automatically in the same folder as the script to store all downloaded images.
 - Ensure the URLs in the Excel file are direct image links (e.g., ending with `.jpg`, `.png`, etc.).
 
+- ### License:
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
 ---
+
+### Contributions:
+Feel free to fork this repository, make changes, and submit pull requests! All contributions are welcome.
+
+---
+
 
 ### Contact:
 If you have any questions or issues, feel free to reach out via the [GitHub Issues](https://github.com/jahirulislamdms/excel-image-downloader-inserter-v2/issues) page.
