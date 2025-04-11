@@ -23,11 +23,11 @@ To run this script, make sure you have Python installed along with the following
 - `requests`: To download the images from the web.
 - `openpyxl`: To interact with Excel files and embed images.
 - `tkinter`: For a graphical interface to select files and columns.
-
+- `Pillow`: For Fatch image objects.
 You can install these dependencies using `pip`:
 
 ```bash
-pip install requests openpyxl
+pip install requests openpyxl Pillow
 ```
 
 Note: `tkinter` is usually included with Python installations, but if it's missing, you may need to install it separately.
